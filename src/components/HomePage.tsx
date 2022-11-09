@@ -4,7 +4,10 @@ import { Link } from "react-scroll";
 
 export const HomePage = () => {
   return (
-    <div id="home" className="w-full h-screen bg-[#edede9]">
+    <div
+      id="home"
+      className="w-full h-screen linear-gradient(to left top, rgb(254, 202, 202), rgb(252, 165, 165), rgb(254, 240, 138))"
+    >
       <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
         <p className="text-black">Hi, my name is</p>
 
@@ -19,7 +22,7 @@ export const HomePage = () => {
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
-            <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#989cab] hover:border-[#989cab] hover:text-white">
+            <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f4978e] hover:border-[#f4978e] hover:text-white">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

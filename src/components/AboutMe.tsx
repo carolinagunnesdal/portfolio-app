@@ -1,18 +1,7 @@
 import React from "react";
 import foto from "../assets/cg_foto.png";
 
-import {
-  Badge,
-  Button,
-  Center,
-  Flex,
-  Heading,
-  Image,
-  Link,
-  Stack,
-  Text,
-  useColorModeValue,
-} from "@chakra-ui/react";
+
 
 const AboutMe = () => {
   return (
